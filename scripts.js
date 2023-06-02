@@ -26,7 +26,7 @@
     }
     
     const populateTodos = () => {
-        for (let i = 0; i < 200; i++) {
+        for (let i = 0; i < arrayOfTodos.length; i++) {
             let newListItem = document.createElement('LI')
             newListItem.innerText = arrayOfTodos[i].title
             todoList.appendChild(newListItem)
